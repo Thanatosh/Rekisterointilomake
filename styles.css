@@ -1,0 +1,112 @@
+#main-header {
+    width: 100%;
+    text-align: center;
+}
+
+#main-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+legend {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px 173px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+}
+
+#maa {
+    width: 100%;
+}
+
+#lisätietoja {
+    width: 370px;
+    font-size: 16px;
+    resize: none;
+    overflow-y: auto;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+
+.virheilmoitus {
+    color: red;
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#asteriskHenkilö {
+    color: red;
+}
+
+#asteriskTunniste {
+    color: red;
+}
+
+#asteriskSukupuoli {
+    color: red;
+}
+
+#asteriskKieli {
+    color: red;
+}
+
+#errorUser {
+    margin-top: -7px;
+    color: red;
+}
+
+#errorPost {
+    margin-top: -7px;
+    color: red;
+}
+
+#errorEmail {
+    margin-top: -7px;
+    color: red;
+}
